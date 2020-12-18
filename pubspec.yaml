@@ -1,6 +1,6 @@
 name: ipstack
 author: ericmartineau
-version: 0.4.4+2
+version: 0.4.4+3
 homepage: https://github.com/SunnyApp/ipstack
 description: Uses ipstack.com service to retrieve details based on the user's ip address.
 environment: 

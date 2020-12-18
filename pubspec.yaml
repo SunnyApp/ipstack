@@ -1,6 +1,6 @@
 name: ipstack
 author: ericmartineau
-version: 0.4.4+1
+version: 0.4.4+2
 homepage: https://github.com/SunnyApp/ipstack
 description: Uses ipstack.com service to retrieve details based on the user's ip address.
 environment: 
@@ -9,10 +9,9 @@ environment:
 dependencies: 
   pedantic: ^1.9.2
   http: ^0.12.2
-  flutter:
+  flutter: 
     sdk: flutter
 dev_dependencies: 
-
   flutter_test: 
     sdk: flutter
 flutter: null

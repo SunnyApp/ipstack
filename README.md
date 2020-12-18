@@ -6,3 +6,10 @@ I am not affiliated with ipstack.
 
 ## Getting Started
 
+```
+final result = await IpStack("myapikey").requester();
+
+/// Then you can access info from the result
+result.latitude;
+result.location.languages;
+```

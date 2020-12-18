@@ -5,37 +5,37 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: ensure_git_status_clean" time="0.016939">
+      <testcase classname="fastlane.lanes" name="0: ensure_git_status_clean" time="0.012915">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: curr_semver" time="0.203428">
+      <testcase classname="fastlane.lanes" name="1: curr_semver" time="0.217911">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: increase_version" time="0.413177">
+      <testcase classname="fastlane.lanes" name="2: increase_version" time="0.480661">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: curr_semver" time="0.198796">
+      <testcase classname="fastlane.lanes" name="3: curr_semver" time="0.215843">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: release_notes" time="0.000351">
+      <testcase classname="fastlane.lanes" name="4: release_notes" time="0.000257">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: pub_publish" time="4.443386">
+      <testcase classname="fastlane.lanes" name="5: pub_publish" time="3.993998">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: finalize_version" time="4.127471">
+      <testcase classname="fastlane.lanes" name="6: finalize_version" time="4.325235">
         
       </testcase>
     

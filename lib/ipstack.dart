@@ -8,12 +8,10 @@ import 'package:http/http.dart' as http;
 export 'ip_stack_response.dart';
 
 class IpStack {
-  static IpStack global;
-
   final String apiKey;
   final bool useHttps;
 
-  IpStack.of(this.apiKey, {this.useHttps = false})
+  IpStack(this.apiKey, {this.useHttps = false})
       : assert(apiKey != null, "You must provide an api key");
 
   Future<IpStackResponse> ip(String ipAddress) async {

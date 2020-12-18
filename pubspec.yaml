@@ -1,18 +1,20 @@
 name: ipstack
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: Uses ipstack.com service to retrieve details based on the user's ip address.
+version: 0.4.4
+author: ericmartineau
+homepage: https://github.com/SunnyApp/ipstack
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
+  pedantic: ^1.9.2
   flutter:
     sdk: flutter
 
 dev_dependencies:
+  http: ^0.12.2
   flutter_test:
     sdk: flutter
 

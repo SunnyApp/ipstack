@@ -5,34 +5,37 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: ensure_git_status_clean" time="0.037991">
+      <testcase classname="fastlane.lanes" name="0: ensure_git_status_clean" time="0.03175">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: curr_semver" time="0.322462">
+      <testcase classname="fastlane.lanes" name="1: curr_semver" time="0.220573">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: increase_version" time="0.5493">
+      <testcase classname="fastlane.lanes" name="2: increase_version" time="0.50383">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: curr_semver" time="0.265986">
+      <testcase classname="fastlane.lanes" name="3: curr_semver" time="0.198288">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: release_notes" time="0.000375">
+      <testcase classname="fastlane.lanes" name="4: release_notes" time="0.000505">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: pub_publish" time="1.517651">
+      <testcase classname="fastlane.lanes" name="5: pub_publish" time="4.774766">
         
-          <failure message="/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:36:in `block in parsing_binding'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/commands_generator.rb:352:in `run'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/ericm/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/fastlane-2.171.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/ericm/.rbenv/versions/2.6.3/bin/fastlane:23:in `load'&#10;/Users/ericm/.rbenv/versions/2.6.3/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;&gt;&gt; pub publish failed &lt;&lt; &#10;  command: pub publish -f&#10;  error: Package validation found the following error:&#10;* line 7, column 1 of lib/ipstack.dart: This package does not have meta in the `dependencies` section of `pubspec.yaml`.&#10;    ╷&#10;  7 │ import 'package:meta/meta.dart';&#10;    │ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;    ╵&#10;Package validation found the following potential issues:&#10;* Your pubspec.yaml includes an &quot;author&quot; section which is no longer used and may be removed.&#10;* ./CHANGELOG.md doesn't mention current version (0.4.4+6).&#10;  Consider updating it with notes on this version prior to publication.&#10;Sorry, your package is missing a requirement and can't be published yet.&#10;For more information, see: https://dart.dev/tools/pub/cmd/pub-lish.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: finalize_version" time="4.59531">
         
       </testcase>
     

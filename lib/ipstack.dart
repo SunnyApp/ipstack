@@ -2,9 +2,8 @@ library ipstack;
 
 import 'dart:convert';
 
-import 'package:ipstack/ip_stack_response.dart';
 import 'package:http/http.dart' as http;
-import 'package:meta/meta.dart';
+import 'package:ipstack/ip_stack_response.dart';
 
 export 'ip_stack_response.dart';
 
@@ -16,18 +15,17 @@ class IpStack {
       : this.ofBaseUrl(apiKey,
             baseUrl: "http${useHttps ? 's' : ''}://api.ipstack.com");
 
-  IpStack.ofBaseUrl(this.apiKey, {@required this.baseUrl})
-      : assert(apiKey != null, "You must provide an api key");
+  IpStack.ofBaseUrl(this.apiKey, {required this.baseUrl});
 
   Future<IpStackResponse> ip(String ipAddress) async {
-    assert(ipAddress != null, "Ip must not be null");
-    final resp =
-        await http.get("$baseUrl/$ipAddress?access_key=$apiKey&format=1");
+    final resp = await http
+        .get(Uri.parse("$baseUrl/$ipAddress?access_key=$apiKey&format=1"));
     return fromResponse(resp);
   }
 
   Future<IpStackResponse> requester() async {
-    final resp = await http.get("$baseUrl/check?access_key=$apiKey&format=1");
+    final resp =
+        await http.get(Uri.parse("$baseUrl/check?access_key=$apiKey&format=1"));
     return fromResponse(resp);
   }
 

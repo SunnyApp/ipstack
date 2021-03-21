@@ -1,47 +1,47 @@
 /// Automatically generated;
 class IpStackResponse {
-  String _ip;
-  String _type;
-  String _continentCode;
-  String _continentName;
-  String _countryCode;
-  String _countryName;
-  String _regionCode;
-  String _regionName;
-  String _city;
-  String _zip;
-  double _latitude;
-  double _longitude;
-  Location _location;
+  String? _ip;
+  String? _type;
+  String? _continentCode;
+  String? _continentName;
+  String? _countryCode;
+  String? _countryName;
+  String? _regionCode;
+  String? _regionName;
+  String? _city;
+  String? _zip;
+  double? _latitude;
+  double? _longitude;
+  Location? _location;
 
-  String get ip => _ip;
-  String get type => _type;
-  String get continentCode => _continentCode;
-  String get continentName => _continentName;
-  String get countryCode => _countryCode;
-  String get countryName => _countryName;
-  String get regionCode => _regionCode;
-  String get regionName => _regionName;
-  String get city => _city;
-  String get zip => _zip;
-  double get latitude => _latitude;
-  double get longitude => _longitude;
-  Location get location => _location;
+  String? get ip => _ip;
+  String? get type => _type;
+  String? get continentCode => _continentCode;
+  String? get continentName => _continentName;
+  String? get countryCode => _countryCode;
+  String? get countryName => _countryName;
+  String? get regionCode => _regionCode;
+  String? get regionName => _regionName;
+  String? get city => _city;
+  String? get zip => _zip;
+  double? get latitude => _latitude;
+  double? get longitude => _longitude;
+  Location? get location => _location;
 
   IpStackResponse(
-      {String ip,
-      String type,
-      String continentCode,
-      String continentName,
-      String countryCode,
-      String countryName,
-      String regionCode,
-      String regionName,
-      String city,
-      String zip,
-      double latitude,
-      double longitude,
-      Location location}) {
+      {String? ip,
+      String? type,
+      String? continentCode,
+      String? continentName,
+      String? countryCode,
+      String? countryName,
+      String? regionCode,
+      String? regionName,
+      String? city,
+      String? zip,
+      double? latitude,
+      double? longitude,
+      Location? location}) {
     _ip = ip;
     _type = type;
     _continentCode = continentCode;
@@ -89,7 +89,7 @@ class IpStackResponse {
     map["latitude"] = _latitude;
     map["longitude"] = _longitude;
     if (_location != null) {
-      map["location"] = _location.toJson();
+      map["location"] = _location!.toJson();
     }
     return map;
   }
@@ -105,33 +105,33 @@ class IpStackResponse {
 /// is_eu : false
 
 class Location {
-  int _geonameId;
-  String _capital;
-  List<Languages> _languages;
-  String _countryFlag;
-  String _countryFlagEmoji;
-  String _countryFlagEmojiUnicode;
-  String _callingCode;
-  bool _isEu;
+  int? _geonameId;
+  String? _capital;
+  List<Languages>? _languages;
+  String? _countryFlag;
+  String? _countryFlagEmoji;
+  String? _countryFlagEmojiUnicode;
+  String? _callingCode;
+  bool? _isEu;
 
-  int get geonameId => _geonameId;
-  String get capital => _capital;
-  List<Languages> get languages => _languages;
-  String get countryFlag => _countryFlag;
-  String get countryFlagEmoji => _countryFlagEmoji;
-  String get countryFlagEmojiUnicode => _countryFlagEmojiUnicode;
-  String get callingCode => _callingCode;
-  bool get isEu => _isEu;
+  int? get geonameId => _geonameId;
+  String? get capital => _capital;
+  List<Languages>? get languages => _languages;
+  String? get countryFlag => _countryFlag;
+  String? get countryFlagEmoji => _countryFlagEmoji;
+  String? get countryFlagEmojiUnicode => _countryFlagEmojiUnicode;
+  String? get callingCode => _callingCode;
+  bool? get isEu => _isEu;
 
   Location(
-      {int geonameId,
-      String capital,
-      List<Languages> languages,
-      String countryFlag,
-      String countryFlagEmoji,
-      String countryFlagEmojiUnicode,
-      String callingCode,
-      bool isEu}) {
+      {int? geonameId,
+      String? capital,
+      List<Languages>? languages,
+      String? countryFlag,
+      String? countryFlagEmoji,
+      String? countryFlagEmojiUnicode,
+      String? callingCode,
+      bool? isEu}) {
     _geonameId = geonameId;
     _capital = capital;
     _languages = languages;
@@ -148,7 +148,7 @@ class Location {
     if (json["languages"] != null) {
       _languages = [];
       json["languages"].forEach((v) {
-        _languages.add(Languages.fromJson(v));
+        _languages!.add(Languages.fromJson(v));
       });
     }
     _countryFlag = json["country_flag"];
@@ -163,7 +163,7 @@ class Location {
     map["geoname_id"] = _geonameId;
     map["capital"] = _capital;
     if (_languages != null) {
-      map["languages"] = _languages.map((v) => v.toJson()).toList();
+      map["languages"] = _languages!.map((v) => v.toJson()).toList();
     }
     map["country_flag"] = _countryFlag;
     map["country_flag_emoji"] = _countryFlagEmoji;
@@ -179,15 +179,15 @@ class Location {
 /// native : "English"
 
 class Languages {
-  String _code;
-  String _name;
-  String _native;
+  String? _code;
+  String? _name;
+  String? _native;
 
-  String get code => _code;
-  String get name => _name;
-  String get native => _native;
+  String? get code => _code;
+  String? get name => _name;
+  String? get native => _native;
 
-  Languages({String code, String name, String native}) {
+  Languages({String? code, String? name, String? native}) {
     _code = code;
     _name = name;
     _native = native;

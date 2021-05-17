@@ -1,3 +1,7 @@
+## [0.5.1+1]
+ * Updated dependencies
+Updated fastlane
+
 ## [0.5.1-nullsafety.2]
  * bundle update
 Update fastlane

@@ -7,13 +7,13 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
   flutter: '>=1.17.0'
 dependencies: 
-  http: ^0.13.5
-  meta: ^1.9.0
+  http: ^1.0.0
+  meta: ^1.9.1
   pedantic: ^1.11.1
   flutter: 
     sdk: flutter
 dev_dependencies: 
   dartxx: 
-    path: /Users/ericm/reliveit/checkout/ericmartineau/dartxx
+    path: /Users/ericm/aesthetika/checkout/ericmartineau/dartxx
   flutter_test: 
     sdk: flutter
